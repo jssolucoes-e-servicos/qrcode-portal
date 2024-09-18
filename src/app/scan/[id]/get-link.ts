@@ -21,6 +21,9 @@ export async function getLink(id: string) {
       //link = `https://recepcao.igrejavivaemcelulas.com.br/pages/celulas`;
       link = `https://linktr.ee/igreja.viva`;
     }
+    if (id === "jantar-maricato-do-pujol") {
+      link = `https://docs.google.com/forms/d/e/1FAIpQLSfJ2NLWjfwrSYNgtZjOBDDCs9wjiOv-I057IltqYcCaxNYcNQ/viewform`;
+    }
     return link;
   } catch (error) {
     return link;
